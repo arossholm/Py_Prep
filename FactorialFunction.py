@@ -48,6 +48,22 @@ def binary_search(data, target, data_low, data_high):
 
 
 
+def fibonacci_dyn(n):
+    if n < 0:
+        print("Incorrect input")
+    elif n <= len(FibArray):
+        return FibArray[n - 1]
+    else:
+        temp_fib = fibonacci_dyn(n - 1) + fibonacci_dyn(n - 2)
+        FibArray.append(temp_fib)
+        return temp_fib
+
+
+# Driver Program
+
+
+
+FibArray = [0,1]
 def main(argv):
     print("Fractional of {} = {}".format(5, factorial(5)))
 
@@ -58,6 +74,12 @@ def main(argv):
     data_high = len(sorted_array)
     binary_search(sorted_array, 12, data_low, data_high)
     pass
+
+    n_fib = 22
+    #global FibArray
+    FibArray = [0] * n_fib
+    print('fibonacci_dyn(n_fib) {}' .format(fibonacci_dyn(n_fib)))
+
 
 if __name__ == "__main__":
     main(sys.argv)
