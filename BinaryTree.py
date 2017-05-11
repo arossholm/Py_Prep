@@ -98,6 +98,7 @@ class CBOrdTree:
 if __name__ == "__main__":
     # create the binary tree
     BTree = CBOrdTree()
+
     # add the root node
     root = BTree.addNode(0)
     # ask the user to insert values
