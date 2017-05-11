@@ -143,14 +143,3 @@ print(Q.is_empty())
 print(Q.dequeue())
 
 
-print('test stuff')
-
-Adict = {"first":1,"second":2}
-print(Adict.keys())
-
-Atuple = ('1',2,'sdfhsfdghf')
-print(Atuple[2])
-
-Alist = [2,2,2,2,2]
-
-print(Alist[3])

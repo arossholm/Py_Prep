@@ -103,7 +103,7 @@ if __name__ == "__main__":
     root = BTree.addNode(0)
     # ask the user to insert values
     for i in range(0, 5):
-        data = int(raw_input("insert the node value nr %d: " % i))
+        data = (raw_input("insert the node value nr %d: " % i))
         # insert values
         BTree.insert(root, data)
     print
