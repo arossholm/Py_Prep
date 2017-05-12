@@ -42,3 +42,14 @@ print a_dict["second"]
 print a_dict.keys()
 print a_dict.values()
 print a_dict.items()
+print('***********SET***********')
+seen = set()
+print seen
+seen.add(2)
+seen.add(222)
+seen.add('andreas')
+print seen
+seen.remove(222)
+print seen
+print('andreas' in seen)
+print('Andreas' in seen)
