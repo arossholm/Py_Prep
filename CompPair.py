@@ -18,3 +18,4 @@ def pairSum2(arr, k):
 arr = np.random.randint(-9, 9, 20)
 print(arr)
 pairSum2(arr,6)
+

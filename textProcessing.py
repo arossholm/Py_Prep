@@ -27,3 +27,18 @@ Aset = set([1,3,4,32,5,3221,1])
 print Aset
 
 print(Alist[3])
+
+
+a_dict = {}
+a_dict = {"first": 1}
+print a_dict
+a_dict["second"] = [2]
+print a_dict
+a_dict.update({'third':3})
+print a_dict
+a_dict["second"].append(222)
+print a_dict
+print a_dict["second"]
+print a_dict.keys()
+print a_dict.values()
+print a_dict.items()
